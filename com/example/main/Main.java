@@ -9,6 +9,8 @@ public class Main {
         System.out.println(p.equals(p2));
         System.out.println(p == p2);
         System.out.println(p.hashCode());
+        System.out.println(p2.hashCode());       
+        System.out.println(p.hashCode() == p2.hashCode()); 
     }
 
 }

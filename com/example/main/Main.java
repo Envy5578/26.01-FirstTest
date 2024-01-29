@@ -7,7 +7,7 @@ public class Main {
         Person p2 = new Person("John", 30);
         System.out.println(p2);
         System.out.println(p.equals(p2));
-        
+        System.out.println(p == p2);
     }
 
 }

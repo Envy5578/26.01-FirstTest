@@ -1,12 +1,13 @@
 public class Person {
     private String name;
     private int age;
+    private int day;
     public Person() {
         
     }
     public Person(String name, int age) {
         this.name = name;
-        this.age = age;
+        this.age = age; 
     }
     public int getage() {
         return age;

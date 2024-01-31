@@ -8,6 +8,9 @@ public class Person {
         this.name = name;
         this.age = age;
     }
+    public int getage() {
+        return age;
+    }
     public String getName() {
         return name;
     }

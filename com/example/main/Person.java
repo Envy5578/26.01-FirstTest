@@ -2,12 +2,25 @@ public class Person {
     private String name;
     private int age;
     private int day;
+    private int month;
     public Person() {
         
     }
     public Person(String name, int age) {
         this.name = name;
         this.age = age; 
+    }
+    public Person(String name, int age, int day, int month) {
+        this.name = name;
+        this.age = age;
+        this.day = day;
+        this.month = month;
+    }
+    public int getmonth() {
+        return month;
+    }
+    public int getday() {
+        return day;
     }
     public int getage() {
         return age;
